@@ -17,3 +17,47 @@ body {
     width: 100vw;
     background-color: #ffffff;
 }
+/* Removed animation from #main */
+#main h1:hover::before {
+    content: "Devil";
+    position: absolute;
+    left: 2px;
+    text-shadow: -2px 0 red;
+    background: #fff;
+    overflow: hidden;
+    animation: glitch 1s infinite;
+}
+
+#main h1:hover::after {
+    content: "Devil";
+    position: absolute;
+    left: -2px;
+    text-shadow: -2px 0 blue;
+    background: #fff;
+    overflow: hidden;
+    animation: glitch 1s infinite;
+}
+#main h1, #main p {
+    animation: glitch 1s infinite;
+}
+
+@keyframes glitch {
+    0% {
+        transform: translate(0);
+    }
+    20% {
+        transform: translate(-2px, 2px);
+    }
+    40% {
+        transform: translate(-2px, -2px);
+    }
+    60% {
+        transform: translate(2px, 2px);
+    }
+    80% {
+        transform: translate(2px, -2px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
