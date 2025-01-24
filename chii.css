@@ -15,7 +15,7 @@ body {
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-color: #fac3ff;
+    background-color: #ffffff;
 }
 /* Removed animation from #main */
 #main h1:hover::before {
@@ -32,7 +32,7 @@ body {
     position: absolute;
     left: 2px;
     text-shadow: -2px 0 red;
-    background: #fac3ff; /* Changed background color */
+    background: #ffffff; /* Changed background color */
     overflow: hidden;
     animation: glitch 1s infinite;
 }
@@ -41,7 +41,7 @@ body {
     position: absolute;
     left: -2px;
     text-shadow: -2px 0 blue;
-    background: #fac3ff; 
+    background: #ffffff; 
     overflow: hidden;
     animation: glitch 1s infinite;
 }
