@@ -1,4 +1,4 @@
-.main{
+.main {
     font-family: 'Noto Sans Japanese', cursive;
     font-size: 26px;
     color: #000000;
@@ -11,4 +11,6 @@
     height: 100vh;
     width: 100vw;
     background-color: #ffffff;
+    position: relative;
 }
+
