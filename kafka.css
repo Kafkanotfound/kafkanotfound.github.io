@@ -1,5 +1,5 @@
-.main{
-    font-family: 'Noto Sans Japanese', cursive;
+.main {
+    font-family: 'Noto Sans JP', cursive;
     font-size: 26px;
     color: #000000;
     line-height: 1.5;
@@ -11,4 +11,7 @@
     height: 100vh;
     width: 100vw;
     background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
 }
+
