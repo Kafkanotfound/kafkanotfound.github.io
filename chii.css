@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Special Elite', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     color: #000000;
     font-size: 16px;
     line-height: 1.5;
@@ -32,7 +32,7 @@ body {
     content: "Devil";
     position: absolute;
     left: 2px;
-    text-shadow: -2px 0 red;
+    text-shadow: -2px 0 rgb(70, 0, 0);
     background: #ffffff; /* Changed background color */
     overflow: hidden;
     animation: glitch 1s infinite;
@@ -41,7 +41,7 @@ body {
     content: "Devil";
     position: absolute;
     left: -2px;
-    text-shadow: -2px 0 blue;
+    text-shadow: -2px 0 rgb(87, 0, 73);
     background: #ffffff; 
     overflow: hidden;
     animation: glitch 1s infinite;
