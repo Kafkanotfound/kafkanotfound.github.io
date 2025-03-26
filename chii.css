@@ -1,57 +1,42 @@
+
+
+.special-elite-regular {
+    font-family: "Special Elite", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Special Elite', sans-serif;
-    background-color: #ffffff;
-    color: #000000;
-    font-size: 16px;
-    line-height: 1.5;
-    overflow-x: hidden;
-}
-#main {
+    background: url('/images/moon.png') no-repeat center center fixed;
+    background-size: cover;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vw;
-    background-color: #ffffff;
-}
-/* Removed animation from #main */
-
-#main h1:hover::before {
-    content: "Devil";
-    position: absolute;
-    left: 2px;
-    text-shadow: -2px 0 red;
-    background: #fff;
-    overflow: hidden;
-    animation: glitch 1s infinite;
-}
-#main h1:hover::before {
-    content: "Devil";
-    position: absolute;
-    left: 2px;
-    text-shadow: -2px 0 rgb(70, 0, 0);
-    background: #ffffff; /* Changed background color */
-    overflow: hidden;
-    animation: glitch 1s infinite;
-}
-#main h1:hover::after {
-    content: "Devil";
-    position: absolute;
-    left: -2px;
-    text-shadow: -2px 0 rgb(87, 0, 73);
-    background: #ffffff; 
-    overflow: hidden;
-    animation: glitch 1s infinite;
-}
-#main h1 {
-    position: relative;
-    animation: glitch 1s infinite;
+    margin: 0;
 }
 
-#main p {
+.container {
+    background-color: #000000d7;
+    width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-family: 'Special ELite', cursive;
+    font-size: 28px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
     animation: glitch 1s infinite;
 }
 
@@ -74,4 +59,24 @@ body {
     100% {
         transform: translate(0);
     }
+}
+.enter-btn {
+    display: inline-block;
+    background: url('/images/eye.gif') no-repeat center center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin: 15px 0;
+    border-radius: 50%;
+    text-decoration: none;
+    color: transparent;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(4, 4, 4, 0.15);
+    transition: 0.3s;
+    cursor: url('/images/cursor.cur'),  pointer;
+}
+
+.enter-btn:hover {  
+    background: #2e2d2e;
+    color: white;
 }
